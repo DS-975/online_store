@@ -40,16 +40,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'django.contrib.sites', # для site в файле prodject/prodject/urls.py
+    'django.contrib.sites', # для site в файле prodject/prodject/urls.py.py
     'django.contrib.flatpages', # для встроенного приложения flatpages применения стилей
 
     # Ваши приложения
-    'core',
-    'products',
-    'finance',
-    'customers',
-    'reviews',
-    'sellers',
+    'core', # Работа началась
+    # 'products',
+    # 'finance',
+    #'customers',
+    # 'reviews',
+    # 'sellers_ds',
 ]
 
 MIDDLEWARE = [

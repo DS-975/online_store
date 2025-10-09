@@ -65,6 +65,8 @@ Transactions:
 
 -- ПОКУПАТЕЛИ --
 
+BuyerProfiles
+
 Orders:
 | order_id | buyer_id | total_amount | status | created_at |
 
@@ -93,7 +95,7 @@ SellerProfiles:
 online_store/
 │
 ├── core/                       # Общее ядро
-│   ├── models.py              # User, Category
+│   ├── models.py              # Users, Categories
 │   └── utils.py               # общие функции
 │
 ├── products/                   # Товары
@@ -152,6 +154,18 @@ order_items для истории заказов
 
 История заказов сохраняет цену на момент покупки
 
+
+- - -
+
+
+models - core настройка 
+
+
+
+
+
+
+
 - - -
 - - -
 - - - 
@@ -171,7 +185,7 @@ order_items для истории заказов
 
 ## 2. Создать и перейти на новую ветку
 ### Создать новую ветку и перейти на неё
-    git checkout -b новая_ветка
+    `git checkout -b` новая_ветка
 ### Или
     git switch -c новая_ветка
 
